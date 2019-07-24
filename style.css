@@ -1,0 +1,57 @@
+.container {
+    padding: 40px 0;
+    margin-top: 50px;
+    background: #eee;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px 1px rgba(0,0,0,.2);
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+sub {
+    left: 20%;
+    bottom: 1.25em;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+input[type=text], textarea {
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type=text] {
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+textarea {
+    min-height: 100px;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+button {
+    height: 40px;
+    margin-top: 20px;
+}
+   
+.result {
+    width: 300px;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
